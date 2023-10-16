@@ -3,7 +3,6 @@ library(tidyverse)
 library(FNN)
 library("optparse")
 library(feather)
-setwd("/Users/heyihui/Desktop/codes_paper")
 main=function(q,T=2000,N){
 # --------------------------------------------------
 # source the functions
