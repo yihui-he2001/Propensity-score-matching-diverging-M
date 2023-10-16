@@ -1,24 +1,9 @@
 # On propensity score matching with a diverging number of matches
 
-Welcome to my awesome project! This is a brief description of what my project is all about.
+This repository provides the results for
 
-## Table of Contents
+On propensity score matching with a diverging number of matches
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Yihui He and Fang Han, 2023.
 
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Installation
-
-Provide instructions on how to install your project. You can include code snippets and commands.
-
-```bash
-npm install my-awesome-package
+All the simulations can be done by running main.R. In the folder "working_data", we saves the results of all Monte Carlo simulations. In the folder "tables", we save the tables about some summary statistics of the simulations.
