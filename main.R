@@ -118,6 +118,7 @@ runs =rbind(runs, data.frame(N=N, M=m, est=hat_tau, se=hat_var))
 feather::write_feather(runs, opt$output_feather_path)
 } 
 }
+future:::ClusterRegistry("stop")
 }
 
 
