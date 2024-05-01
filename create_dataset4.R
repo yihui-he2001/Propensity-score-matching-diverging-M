@@ -13,7 +13,7 @@ W=map_dbl(P,function(data) rbinom(1,1,data))
 Y=pmap_dbl(tibble(Y_0,Y_1,W),function(Y_0,Y_1,W) Y_0*(1-W)+Y_1*W)
 ATE=5
 ATT=5.457
-#bate and batt are the root squares of the asymptotic variances of ATT and ATE in this dataset
+#bate and batt are the root squares of the asymptotic variance bounds of ATT and ATE in this dataset
 bate=2.560
 batt=3.018
 save(ATE,ATT,Y,W,X_1,X_2,X_3,P,file="working_data/dataset4.Rdata")
