@@ -21,7 +21,7 @@ create_dataset3=function(N){
   Y=pmap_dbl(tibble(Y_0,Y_1,W),function(Y_0,Y_1,W) Y_0*(1-W)+Y_1*W)
   ATE=4.616
   ATT=4.900
-  #bate and batt are the root squares of the asymptotic variances of ATT and ATE in this dataset
+  #bate and batt are the root squares of the asymptotic variance bounds of ATT and ATE in this dataset
   bate=2.426
   batt=2.760
   save(ATE,ATT,Y,W,X_1,X_2,P,file="working_data/dataset3.Rdata")
